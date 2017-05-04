@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0;
+}
+#container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+#image {
+  margin-left: 5px;
+  border-radius: 20px;
+  max-width: 99%;
+  max-height: 99%;
+}
+#countdowndays p{
+  opacity:1;
+}
+#countdownhours p{
+  opacity: 0.8;
+}
+#countdownmins p{
+  opacity: 0.6;
+}
+#countdownsecs p{
+  opacity: 0.4;
+}
+
+#countdown {
+  width: 240px;
+  position: absolute;
+	text-transform: uppercase;
+  display: block;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.box{
+  white-space:nowrap;
+  line-height:0.7;
+  margin-bottom:10px;
+}
+
+.box p{
+	font-size: 1em;
+	font-weight: 900;
+  display:inline-block;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: #dbf1ff;
+}
