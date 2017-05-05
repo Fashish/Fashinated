@@ -2,16 +2,16 @@
   margin:0;
   padding:0;
 }
-#container {
+.container {
   display: flex;
   align-content: center;
   justify-content: center;
   width: 100%;
-  margin: 20px auto;
+  margin: 10px auto;
   position: relative;
 }
-#image {
-  margin-left: 5px;
+.image {
+  margin-left: 2px;
   border-radius: 20px;
   max-width: 99%;
   max-height: 99%;
@@ -34,7 +34,6 @@
   position: absolute;
 	text-transform: uppercase;
   display: block;
-  border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
 }
@@ -51,4 +50,20 @@
   display:inline-block;
   font-family: Helvetica, Arial, Sans-Serif;
   color: #dbf1ff;
+}
+
+@media only screen and (max-width: 500px){
+  .container {
+    width: 100%;
+    margin-top: 1px;
+  }
+  .box {
+    white-space:nowrap;
+    line-height:0.5;
+    margin-bottom: 6px;
+  }
+  #countdown {
+    width: 100px;
+    margin-top: 0px;
+  }
 }
