@@ -1,0 +1,10 @@
+
+
+Task 1:
+
+For this task, I ran a series of exploratory based tests to verify links, footers, spellings and overall aesthetics of the UI.
+I also checked tested the site in different browsers as well different screen sizes, including mobile, by using Chrome Dev tools to verify all elements render correctly and everything looks as they should.
+
+I also took into consideration the reposnse times of specific functions on the site, such as load times and searching a query, to make sure nothing's out of ordinary in terms of performance.
+
+For my
