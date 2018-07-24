@@ -1,7 +1,7 @@
 // COUNTDOWN
 function makeTimer(){
 
-	var endTime = new Date("14 June 2017 12:30:00 GMT+01:00");
+	var endTime = new Date("15 August 2018 14:10:00 GMT+01:00");
 	endTime = (Date.parse(endTime) / 1000);
 
 	var now = new Date();

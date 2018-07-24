@@ -23,10 +23,10 @@
   opacity: 0.8;
 }
 #countdownmins p{
-  opacity: 0.6;
+  opacity: 0.65;
 }
 #countdownsecs p{
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 #countdown {
@@ -49,7 +49,7 @@
 	font-weight: 900;
   display:inline-block;
   font-family: Helvetica, Arial, Sans-Serif;
-  color: #dbf1ff;
+  color: #00a5ff;
 }
 
 @media only screen and (max-width: 500px){
